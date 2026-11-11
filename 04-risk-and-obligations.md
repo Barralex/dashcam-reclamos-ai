@@ -10,6 +10,19 @@
 
 **Identify** (they follow the reporting process, not the model):
 - [ ] Traffic rules and the city's requirements for accepting citizen reports.
+
+### Reporting channel (researched 2026-11-11)
+
+| Channel | Video | Tracking | Covers other drivers' violations? |
+|---|---|---|---|
+| Montevideo SUR (Sistema Único de Respuesta), web form | Yes: photos, videos, PDF | Yes: email with follow-up link, closure notice | **Unconfirmed**: listed topics are cleaning, lighting, streets, sidewalks, transport |
+| Montevideo 1950 4000 option 1 (traffic center) | No, phone only | Not stated | Yes, but aimed at urgent cases |
+| Montevideo WhatsApp 099 019 500 | Not stated for reports | Not stated | Not stated: listed for inquiries, fines and noisy exhausts |
+| Canelones | No channel found (app for local problems, 1828 phone line) | — | — |
+
+- Candidate: **SUR**, because it is the only channel with both video and a tracking record (needed for the lagging KPI).
+- SUR asks for a captcha at the start. Control: the agent drafts and pre-fills the report; **I solve the captcha and press send**. The agent never submits on its own and nothing tries to bypass the captcha.
+- [ ] Open: does SUR have a category that fits a traffic violation by another driver? Check step 2 of the form, then send one real test report.
 - [ ] Data protection: plates and faces of third parties who did nothing get filmed.
 - AI requirements on top: explain each report, a review route, recorded evidence.
 

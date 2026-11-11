@@ -1,6 +1,6 @@
 <div align="center">
 
-# Dashcam traffic violations, by the book
+# Dashcam street reports, by the book
 
 [![Framework](assets/badges/framework.svg)](#the-brief)
 [![Stage](assets/badges/stage.svg)](#the-board)
@@ -23,7 +23,7 @@ I report traffic violations by hand: press the dashcam button, save the clip, fi
 
 Instead of starting with the hardware, this repo runs the idea through what the [AWS Certified AI Business Strategist](https://github.com/Barralex/aws-ai-business-strategist) exam teaches: outcome first, rules or AI, build or buy, a credible baseline, risk and obligations, bias, monitoring, maturity and readiness gaps. Each question I can't answer yet becomes an open gap on the board.
 
-**Outcome:** increase the number of real, verifiable traffic violation reports sent to the Montevideo and Canelones authorities.
+**Outcome:** increase the number of real, verifiable traffic violation reports accepted by the Montevideo and Canelones authorities.
 
 ## The board
 
@@ -33,9 +33,9 @@ The weakest dimension decides, not the average.
 |---|---|---|
 | [Outcome and use case](01-outcome-and-use-case.md) | 🟡 | Outcome set; target per month waits for the baseline |
 | [Baseline and KPIs](02-baseline-and-kpis.md) | 🔴 | "Montevideo has more" is a claim, not evidence |
-| [Risk and obligations](04-risk-and-obligations.md) | 🔴 | Does the city accept citizen reports with video? |
+| [Risk and obligations](04-risk-and-obligations.md) | 🔴 | Montevideo: does SUR take traffic violations? Canelones: no channel found |
 | [Bias and monitoring](05-bias-and-monitoring.md) | 🟡 | No per-group measure defined |
-| [Leadership alignment](06-maturity-and-gaps.md) | 🟡 | I am sponsor and owner at once |
+| [Leadership alignment](06-maturity-and-gaps.md) | 🟢 | Roles split: Claude is executive sponsor and strategist, I am owner, builder and human in the loop |
 | [Data quality](06-maturity-and-gaps.md) | 🔴 | Manual log has no minutes driven |
 | [Cultural preparedness](06-maturity-and-gaps.md) | 🟢 | Personal project, no team to win over |
 | [Technical infrastructure](06-maturity-and-gaps.md) | 🔴 | No hardware, no pipeline |

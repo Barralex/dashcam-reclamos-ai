@@ -18,7 +18,9 @@ To become evidence, the baseline has to pass the three checks:
 |---|---|---|
 | Leading | % of detections I approve on review | months 1 to 3 |
 | Leading | Reports drafted per week | months 1 to 3 |
-| Lagging | % of reports the city accepts | later |
+| Leading | Reports sent per month | months 1 to 3 |
+| Lagging | Reports accepted per month (the outcome) | later |
+| Lagging | % of sent reports the city accepts | later |
 
 ## Costs
 
