@@ -7,8 +7,9 @@ This repo takes a real AI idea to reality, done the way a company would do it: t
 - Today Luis reports traffic violations by hand: he presses the button on his dashcam, keeps the clip and files a report. It happens every day.
 - He drives between Canelones and Montevideo, at different times of day, not on a fixed schedule.
 - His impression is that Montevideo has many more violations. That is a **claim, not evidence** until the log proves it.
-- The pilot idea: a small model on an NVIDIA Jetson in the car spots violations in real time, clips upload over home WiFi, an agent drafts the report, Luis reviews every report (human in the loop) and sends it to the city.
-- Outcome: increase the number of real, verifiable traffic violation reports sent to the Montevideo and Canelones authorities.
+- The real pain: once a month Luis spends ~4 hours with the SD card watching captures, picking the real violations, cutting and converting clips. The SUR form is a fixed cost and not the problem.
+- The pilot idea: a model ranks the likely violations in the captures, the clips get cut and converted, a draft report is ready, Luis approves or drops each one (human in the loop) and submits it by hand on SUR. In the car (Jetson) or at home is open.
+- Outcome: cut the manual triage from ~4 hours to under 30 minutes per month, without lowering report quality (real, verifiable, accepted). The triage baseline is mock data for practice.
 - Stage: **envision**. Nothing is built.
 
 ## Your role

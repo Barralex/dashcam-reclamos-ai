@@ -10,8 +10,8 @@
 
 ### An AI idea taken through the AIB-C01 framework before a single line of code.
 
-A dashcam spots traffic violations, an agent drafts the report, a person reviews it<br>
-and sends it to the city. This repo is the business case, not the build.
+A month of dashcam captures, triaged into ready-to-send reports in minutes instead of hours.<br>
+A person still decides and sends every one. This repo is the business case, not the build.
 
 </div>
 
@@ -19,11 +19,11 @@ and sends it to the city. This repo is the business case, not the build.
 
 ## The brief
 
-I report traffic violations by hand: press the dashcam button, save the clip, file it. It happens every day. The idea is to let a small model in the car spot them, an agent draft the report and keep me as the reviewer before anything is sent.
+I report traffic violations by hand. Every day I press the dashcam button; once a month I sit with the SD card for about four hours, watch every capture, pick the real ones, cut and convert the clips, and only then file them. The form isn't the problem; the triage is. The idea is to let a model rank the likely violations and leave the clips ready, so I only decide which ones to send.
 
 Instead of starting with the hardware, this repo runs the idea through what the [AWS Certified AI Business Strategist](https://github.com/Barralex/aws-ai-business-strategist) exam teaches: outcome first, rules or AI, build or buy, a credible baseline, risk and obligations, bias, monitoring, maturity and readiness gaps. Each question I can't answer yet becomes an open gap on the board.
 
-**Outcome:** increase the number of real, verifiable traffic violation reports accepted by the Montevideo and Canelones authorities.
+**Outcome:** cut the manual time to turn a month of dashcam captures into ready-to-send reports, from ~4 hours to under 30 minutes, without lowering report quality (real, verifiable, accepted).
 
 ## The board
 
@@ -31,8 +31,8 @@ The weakest dimension decides, not the average.
 
 | Piece | Status | Open gap |
 |---|---|---|
-| [Outcome and use case](01-outcome-and-use-case.md) | 🟡 | Outcome set; target per month waits for the baseline |
-| [Baseline and KPIs](02-baseline-and-kpis.md) | 🔴 | "Montevideo has more" is a claim, not evidence |
+| [Outcome and use case](01-outcome-and-use-case.md) | 🟡 | Outcome pivoted to triage time; in the car vs at home is open |
+| [Baseline and KPIs](02-baseline-and-kpis.md) | 🔴 | Triage baseline is mock data; needs one real SD session |
 | [Risk and obligations](04-risk-and-obligations.md) | 🔴 | Montevideo: does SUR take traffic violations? Canelones: no channel found |
 | [Bias and monitoring](05-bias-and-monitoring.md) | 🟡 | No per-group measure defined |
 | [Leadership alignment](06-maturity-and-gaps.md) | 🟢 | Roles split: Claude is executive sponsor and strategist, I am owner, builder and human in the loop |
@@ -46,10 +46,11 @@ The weakest dimension decides, not the average.
 ## The pilot
 
 ```
-dashcam → small model on an NVIDIA Jetson (in the car, real time)
-        → clips upload over home WiFi
-        → agent drafts the report
+dashcam (button + automatic events) → SD card
+        → model ranks the likely violations (in the car or at home: open)
+        → clips cut and converted, report drafted, in a review view
         → I review: approve or drop (human in the loop)
+        → I submit it by hand on SUR (captcha)
         → the city
 ```
 

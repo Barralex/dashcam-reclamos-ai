@@ -21,7 +21,7 @@
 | Canelones | No channel found (app for local problems, 1828 phone line) | — | — |
 
 - Candidate: **SUR**, because it is the only channel with both video and a tracking record (needed for the lagging KPI).
-- SUR asks for a captcha at the start. Control: the agent drafts and pre-fills the report; **I solve the captcha and press send**. The agent never submits on its own and nothing tries to bypass the captcha.
+- SUR asks for a captcha at the start. The captcha comes first, so the agent can't even pre-fill the form. Control: the agent leaves each report in a "ready to send" folder (clip + text per field); **I fill in SUR by hand, solve the captcha and send**. The agent never touches the form and nothing tries to bypass the captcha.
 - [ ] Open: does SUR have a category that fits a traffic violation by another driver? Check step 2 of the form, then send one real test report.
 - [ ] Data protection: plates and faces of third parties who did nothing get filmed.
 - AI requirements on top: explain each report, a review route, recorded evidence.
