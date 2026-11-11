@@ -2,9 +2,11 @@
 
 ## Outcome (no technology)
 
-The city receives reports of real traffic violations, with evidence it can act on.
+Increase the number of real, verifiable traffic violation reports sent to the Montevideo and Canelones authorities.
 
-- [ ] Target: X valid reports per month (set once the baseline exists).
+- **Real:** an actual violation, not a false positive.
+- **Verifiable:** the authority can check it from the evidence (clip, date, place).
+- [ ] Target: X reports per month (set once the baseline exists).
 
 ## Use case = capability + mechanism + outcome
 

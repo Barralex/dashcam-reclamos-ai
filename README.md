@@ -23,7 +23,7 @@ I report traffic violations by hand: press the dashcam button, save the clip, fi
 
 Instead of starting with the hardware, this repo runs the idea through what the [AWS Certified AI Business Strategist](https://github.com/Barralex/aws-ai-business-strategist) exam teaches: outcome first, rules or AI, build or buy, a credible baseline, risk and obligations, bias, monitoring, maturity and readiness gaps. Each question I can't answer yet becomes an open gap on the board.
 
-**Outcome:** the city receives reports of real violations, with evidence it can act on.
+**Outcome:** increase the number of real, verifiable traffic violation reports sent to the Montevideo and Canelones authorities.
 
 ## The board
 
@@ -31,7 +31,7 @@ The weakest dimension decides, not the average.
 
 | Piece | Status | Open gap |
 |---|---|---|
-| [Outcome and use case](01-outcome-and-use-case.md) | 🟡 | Target reports per month not set |
+| [Outcome and use case](01-outcome-and-use-case.md) | 🟡 | Outcome set; target per month waits for the baseline |
 | [Baseline and KPIs](02-baseline-and-kpis.md) | 🔴 | "Montevideo has more" is a claim, not evidence |
 | [Risk and obligations](04-risk-and-obligations.md) | 🔴 | Does the city accept citizen reports with video? |
 | [Bias and monitoring](05-bias-and-monitoring.md) | 🟡 | No per-group measure defined |
