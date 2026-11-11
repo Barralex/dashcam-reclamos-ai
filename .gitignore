@@ -1,0 +1,5 @@
+# Datos privados: recorridos, horarios, patentes y clips. Solo locales, nunca se publican.
+privado/
+*.mp4
+*.mov
+*.jpg
