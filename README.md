@@ -70,7 +70,7 @@ Routes, times, plates and clips never leave my machine: they live in `private/`,
 | [05-bias-and-monitoring.md](05-bias-and-monitoring.md) | Where bias can enter, the monitoring control |
 | [06-maturity-and-gaps.md](06-maturity-and-gaps.md) | Maturity stage, readiness gaps and their order |
 | [decisions.md](decisions.md) | Every decision, dated |
-| [CLAUDE.md](CLAUDE.md) | How the coach works: role, method, privacy and repo rules |
+| [CLAUDE.md](CLAUDE.md) | How the AI Business Strategist works: role, method, privacy and repo rules |
 
 ## License
 
