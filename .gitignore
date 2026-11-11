@@ -1,5 +1,5 @@
-# Datos privados: recorridos, horarios, patentes y clips. Solo locales, nunca se publican.
-privado/
+# Private data: routes, times, plates and clips. Local only, never published.
+private/
 *.mp4
 *.mov
 *.jpg
